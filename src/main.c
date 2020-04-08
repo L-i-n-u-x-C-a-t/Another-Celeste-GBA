@@ -653,6 +653,8 @@ void set_hair_color(u8 djump)
 	if (djump == 1)
 		pal(8, 8, PAL_PLAYER);
 	else if (djump == 2)
+		pal(8, 10, PAL_PLAYER);
+	else if (djump > 2)
 		pal(8, 7+flr((frames/3)%2)*4, PAL_PLAYER);
 	else
 		pal(8,12, PAL_PLAYER);
@@ -1156,7 +1158,7 @@ void orb_draw(Orb* this)
 			freeze = 10;
 			shake = 10;
 			this->obj.active = false;
-			max_djump = 2;
+			max_djump = max_djump + 1;
 			player.djump = 2;
 		}
 	}
