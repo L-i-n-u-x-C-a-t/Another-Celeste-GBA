@@ -1,5 +1,5 @@
 # Mod of the original version, see [here](https://github.com/JeffRuLz/Celeste-Classic-GBA)
-
+# This only goes to 700M for the moment, i'm editing it.
 ## == Celeste Classic GBA port ==
 
 [![shot1](screen1.png)](screen1.png)
